@@ -2,7 +2,7 @@ package com.company;
 
 public class Commander extends Human{
     private Soldier[] soldiers;
-    General general;
+    private General general;
 
     public Commander(String name, int age, boolean canFight, Soldier[] soldiers) {
         super(name, age, canFight);
